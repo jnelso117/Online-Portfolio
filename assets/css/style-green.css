@@ -177,7 +177,7 @@ border-radius: 0px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
 background-color: rgba(255, 255, 255, 0.00);
-cursor: pointer;
+cursor: text;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
@@ -185,12 +185,13 @@ transition: all 0.5s ease-in-out;
 }
 
 #about .about-wrapper:hover {
-background-color: rgba(255, 255, 255, 0.20);
+background-color: rgb(255, 255, 255,0.20);
 }
 
 #about h3 {
 font-family: 'Oswald', sans-serif;
 }
+
 
 #about .about-wrapper i {
 margin: 5px;
@@ -199,18 +200,19 @@ font-size: 60px;
 }
 
 
+
 /*============================
 uab SECTION STYLES
 ==============================*/
 
 #uab .uab-wrapper {
-padding: 0px;
-border-radius: 0px;
+padding: 1px;
+border-radius: 10px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
 background-color: rgba(255, 255, 255, 0.0);
-cursor: pointer;
+cursor: text;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
@@ -218,7 +220,7 @@ transition: all 0.5s ease-in-out;
 }
 
 #uab .uab-wrapper:hover {
-background-color: rgba(255, 255, 255, 0.20);
+background-color: rgba(255, 255, 255, 0.05);
 }
 
 #uab h3 {
@@ -255,18 +257,18 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 margin-bottom: 40px;
-background-color: rgba(255, 255, 255, 0.1);
-cursor: pointer;
+/*background-color: rgba(255, 255, 255, 0.1);*/
+cursor: text;
 -webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
-border: 1px solid rgb(57, 171, 111);
+border: rgb(0, 0, 0);
 }
 
 #work .work-wrapper:hover {
-background-color: transparent;
-border: 1px solid rgb(57, 171, 111);
+background-color: rgba(255,255,255,0.20)
+
 
 opacity: .80; /* standard: ff gt 1.5, opera, safari */
 -ms-filter: "alpha(opacity=80)"; /* ie 8 */
@@ -275,8 +277,10 @@ filter: alpha(opacity=80); /* ie lt 7 */
 -moz-opacity: .80; /* ff lt 1.5, netscape */
 
 }
-#work .work-iframe {
-padding: 1px;
+#work .work-wrapper i {
+margin: 0px;
+color: rgb(57, 171, 111);
+font-size: 60px;
 }
 
 #work .work-wrapper h4 {
